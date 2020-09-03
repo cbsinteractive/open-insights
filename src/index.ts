@@ -32,10 +32,9 @@
  * @packageDocumentation
  */
 import init from "./init"
-import { ClientSettings } from "./@types"
 import ClientSettingsBuilder from "./util/clientSettingsBuilder"
 import Provider from "./lib/providerBase"
 import { Test } from "./lib/test"
 import Fetch from "./lib/fetch"
 
-export { init, ClientSettings, ClientSettingsBuilder, Provider, Test, Fetch }
+export { init, ClientSettingsBuilder, Provider, Test, Fetch }
